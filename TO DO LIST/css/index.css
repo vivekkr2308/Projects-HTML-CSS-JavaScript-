@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+/*
+* common.css
+*/
+.tds-display-flex {
+    display: flex;
+}
+.tds-display-flex.td-flex-column {
+    flex-direction: column;
+}
+.tds-display-flex.td-flex-nowrap {
+    flex-wrap: nowrap;
+}
+.tds-display-flex.td-center {
+    align-items: center;
+    justify-content: center;
+}
+.tds-display-flex.td-vcenter {
+    align-items: center;
+}
+.tds-display-flex.td-hcenter {
+    justify-content: center;
+}
+.tds-display-flex.td-h-spacebetween {
+    justify-content: space-between;
+}
+.tds-full-width {
+    width: 100%;
+}
+.tds-full-height {
+    height: 100%;
+}
+/*
+* Component
+*/
+.tds-app-container {
+    width: 800px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 16px;
+}
+.td-input {
+    width: 200px;
+    padding: 8px 16px;
+    font-size: 18px;
+}
+.td-btn {
+    margin-left: 8px;
+    padding: 8px 16px;
+    border: 1px solid rgb(224, 224, 160);
+    background-color: beige;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.td-list-wrapper {
+    margin: 8px;
+    border: 1px solid black;
+    width: 400px;
+    min-height: 100%;
+}
+.td-list-item {
+    padding: 4px 8px;
+    border-bottom: 1px solid grey;
+}
+.td-checkbox {
+    margin: 2px 4px;
+}
